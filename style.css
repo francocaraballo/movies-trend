@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #141529;
+    --secundary-color: #B7C7CC;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+
+body {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+/* Header */
+
+header {
+    background-color: #141529;
+    color: white !important;
+}
+
+.nav-item .nav-link {
+    color: white;
+}
+
+/* Sect */
+.container-banner {
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.container-banner .btn-banner {
+    padding: 10px 30px;
+    background-color: var(--secundary-color);
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.4s;
+}
+
+.container-banner .btn-banner:hover {
+    background-color: #94a1a5;
+}
+
+.container-banner h4 {
+    font-size: 3rem;
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+}
+
+.container-banner p {
+    font-size: 2rem;
+    max-width: 750px;
+    width: 85%;
+    text-align: center;
+}
+
+.container-banner h4, .container-banner p {
+    color: white;
+}
+
+/* Search section */
+
+.container-search {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-search h4 {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container-search form input {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.container-search form input[type="button"]:hover {
+    background-color: #94a1a5;
+}
+
+.section-movies h4 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Section movies */
+
+.container-movies {
+    width: 90%;
+    padding: 100px 0;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+.container-movies .card {
+    width: 200px;
+    background-color: var(--secundary-color);
+}
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: #63130E;
+    padding: 9px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
