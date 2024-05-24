@@ -140,7 +140,12 @@ footer p {
     width: 500px;
     background-color: var(--secundary-color);
     padding: 50px 35px;
-    margin: 10% auto;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 0 3px 17px -5px #8b989a  ;
+}
+.form-container .form-group {
+    margin-bottom: 15px;
 }
 
 .form-container label {
@@ -153,7 +158,6 @@ footer p {
     margin: auto;
     width: 100%;
     padding: 7px;
-    margin-bottom: 20px;
     border: none;
     border-radius: 8px;
 }
@@ -185,4 +189,5 @@ footer p {
 .error-msg {
     color: var(--terciary-color);
     font-size: 0.8rem;
+    padding-left: 5px ;
 }
