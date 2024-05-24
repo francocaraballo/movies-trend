@@ -1,6 +1,7 @@
 :root {
     --primary-color: #141529;
     --secundary-color: #B7C7CC;
+    --terciary-color: #63130E;
 
 }
 
@@ -123,11 +124,65 @@ header {
 /* Footer */
 
 footer {
-    background-color: #63130E;
+    background-color: var(--terciary-color);
     padding: 9px;
 }
 
 footer p {
     margin: 0;
     text-align: center;
+}
+
+/* ------ LOGIN & SIGNUP ------- */
+
+.form-container {
+    color: black;
+    width: 500px;
+    background-color: var(--secundary-color);
+    padding: 50px 35px;
+    margin: 10% auto;
+}
+
+.form-container label {
+    margin-bottom: 3px;
+    padding-left: 10px;
+}
+
+.form-container form input {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-container form button {
+    width: auto;
+    padding: 10px;
+    display: block;
+    background-color: var(--terciary-color);
+    color: white;
+    transition: background-color 0.4s;
+    border: none;
+    border-radius: 15px;
+    margin: 20px auto 10px;
+}
+
+.form-container form button:hover {
+    background-color: rgb(139, 45, 45);
+}
+
+.form-container .reset-password-new-acc {
+    font-size: 0.8rem;
+}
+
+.form-container .reset-password-new-acc a {
+    color: #60686c;
+}
+
+.error-msg {
+    color: var(--terciary-color);
+    font-size: 0.8rem;
 }
