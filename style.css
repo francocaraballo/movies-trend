@@ -102,11 +102,12 @@ header {
 .container-movies {
     width: 90%;
     padding: 100px 0;
-    margin: auto auto;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 
@@ -115,11 +116,6 @@ header {
     width: 200px;
     background-color: var(--secundary-color);
 }
-
-
-
-
-
 
 /* Footer */
 
